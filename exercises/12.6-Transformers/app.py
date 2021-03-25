@@ -7,5 +7,6 @@ incomingAJAXData = [
 ]
 
 #Your code go here:
-
-
+def my_var(argum)
+    transformedData=""
+    for key in incomingAJAXData.keys()

@@ -7,3 +7,7 @@ print(my_list[2])
 my_list[4]=None
 # 3. print that position now here
 print(my_list[4])
+
+
+#PRACTICING
+
