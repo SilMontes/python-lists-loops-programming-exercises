@@ -9,4 +9,9 @@ all_colors = [
 ]
 
 #Your code go here:
-
+def filter_colors(color):
+    return color["sexy"]==True
+sexy_colors=list(filter(filter_colors,all_colors))
+#print(sexy_colors)
+sexy_colors_list=list(map(lambda color: "<li>"+color["label"]+"</li>",sexy_colors))
+print(sexy_colors_list)

@@ -12,4 +12,8 @@ tasks = [
 
 
 #Your code go here:
+def updating(task):
+    return task["done"]==True
+update_tasks=list(filter(updating,tasks))
+print(update_tasks)
 

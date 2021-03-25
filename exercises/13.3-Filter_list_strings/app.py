@@ -7,3 +7,9 @@ names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','Logan
 
 
 #Your code go here:
+def names_filter(name):
+    #name.lower()
+    filter_expresion="am"
+    return name.__contains__(filter_expresion)
+filtered_names=list(filter(names_filter,names))
+print(filtered_names)
