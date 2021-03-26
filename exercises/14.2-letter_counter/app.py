@@ -2,6 +2,11 @@ par = "Lorem ipsum dolor sit amet consectetur adipiscing elit Curabitur eget bib
 
 counts = {}
 #your code go here:
+for i in par:
+    if(i != " "):
+        x=i.lower()
+        counts[x]=par.count(x)
 
 print(counts)
+#print(sorted(counts))
 
